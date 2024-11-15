@@ -24,7 +24,17 @@
 				"useHookAtTopLevel": "error"
 			},
 			"nursery": {
-				"useSortedClasses": "error"
+				"useSortedClasses": {
+					"level": "error",
+					"fix": "safe",
+					"options": {
+						"functions": [
+							"clsx",
+							"cva",
+							"tw"
+						]
+					}
+				}
 			}
 		}
 	},
