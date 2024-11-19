@@ -15,6 +15,8 @@ export default {
 			fontFamily: {
 				"geist-sans": ["var(--font-geist-sans)"],
 				"geist-mono": ["var(--font-geist-mono)"],
+				inter: ["var(--font-inter)"],
+				"inter-italic": ["var(--font-inter-italic)"],
 			},
 		},
 	},
