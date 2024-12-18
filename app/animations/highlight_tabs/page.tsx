@@ -16,8 +16,6 @@ function HighlightTabs() {
 	const [activeTab, setActiveTab] = useState(1);
 	const updatedActiveTab = (index: number) => setActiveTab(index);
 
-	console.log(activeTab);
-
 	return (
 		<div className="flex gap-5">
 			{TABS.map((tab) => (
