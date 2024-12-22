@@ -17,6 +17,7 @@ export default {
 				"geist-mono": ["var(--font-geist-mono)"],
 				inter: ["var(--font-inter)"],
 				"inter-italic": ["var(--font-inter-italic)"],
+				runde: ["var(--font-runde)"],
 			},
 		},
 	},
